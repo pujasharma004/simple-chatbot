@@ -1,0 +1,69 @@
+body {
+	font-family:Georgia, serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("wheather.png");
+}
+
+
+.chat-container {
+	width: 600px;
+	height: 300px;
+	border: 3px solid plum;
+	padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	margin-top: 200px;
+	background-color: plum;
+	border-radius: 40px;	
+}
+
+.chat-header {
+	background-color: #d7c4f6;
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+	border-radius: 40px;
+	padding-left: 38%;
+}
+.chat-mess {
+	width: 600px;
+	height: 260px;
+	background-image: url("crop\ wheather.png");
+	background-size: cover;
+	border-radius: 40px;
+	background-color: #fff;
+	margin-top: 5px;
+	border:3px solid plum;
+	color: #ae0b4c;
+	
+}
+
+
+.holder{
+	display: flex;
+}
+#user-input {
+	width: 890px;
+	height: 25px;
+	padding: 10px;
+	border-radius: 40px;
+	margin-top: 5px;
+	
+}
+
+#send-button {
+	width: 20%;
+	height: 50px;
+	background-color: #eb1c6f;
+	color: #fff;
+	border: none;
+	border-radius: 45px;
+    cursor: pointer;
+	margin-top: 5px;
+	 
+}
+#send-button:hover{
+    background-color: #bd0552;
+}
